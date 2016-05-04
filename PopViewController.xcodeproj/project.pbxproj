@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046750661CDA33540008DDF3 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046750651CDA33540008DDF3 /* TestViewController.swift */; };
+		BC90A4F11CD9E93500D254B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A4F01CD9E93500D254B0 /* AppDelegate.swift */; };
+		BC90A4F31CD9E93500D254B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A4F21CD9E93500D254B0 /* ViewController.swift */; };
+		BC90A4F61CD9E93500D254B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC90A4F41CD9E93500D254B0 /* Main.storyboard */; };
+		BC90A4F81CD9E93500D254B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC90A4F71CD9E93500D254B0 /* Assets.xcassets */; };
+		BC90A4FB1CD9E93500D254B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC90A4F91CD9E93500D254B0 /* LaunchScreen.storyboard */; };
+		BC90A5061CD9E93500D254B0 /* PopViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A5051CD9E93500D254B0 /* PopViewControllerTests.swift */; };
+		BC90A5111CD9E93500D254B0 /* PopViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A5101CD9E93500D254B0 /* PopViewControllerUITests.swift */; };
+		BC90A51F1CD9EAA300D254B0 /* XtPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A51E1CD9EAA300D254B0 /* XtPopViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC90A5021CD9E93500D254B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC90A4E51CD9E93500D254B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC90A4EC1CD9E93500D254B0;
+			remoteInfo = PopViewController;
+		};
+		BC90A50D1CD9E93500D254B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC90A4E51CD9E93500D254B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC90A4EC1CD9E93500D254B0;
+			remoteInfo = PopViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046750651CDA33540008DDF3 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		BC90A4ED1CD9E93500D254B0 /* PopViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC90A4F01CD9E93500D254B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC90A4F21CD9E93500D254B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC90A4F51CD9E93500D254B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC90A4F71CD9E93500D254B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC90A4FA1CD9E93500D254B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC90A4FC1CD9E93500D254B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC90A5011CD9E93500D254B0 /* PopViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC90A5051CD9E93500D254B0 /* PopViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewControllerTests.swift; sourceTree = "<group>"; };
+		BC90A5071CD9E93500D254B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC90A50C1CD9E93500D254B0 /* PopViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC90A5101CD9E93500D254B0 /* PopViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewControllerUITests.swift; sourceTree = "<group>"; };
+		BC90A5121CD9E93500D254B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC90A51E1CD9EAA300D254B0 /* XtPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XtPopViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC90A4EA1CD9E93500D254B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90A4FE1CD9E93500D254B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90A5091CD9E93500D254B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC90A4E41CD9E93500D254B0 = {
+			isa = PBXGroup;
+			children = (
+				BC90A4EF1CD9E93500D254B0 /* PopViewController */,
+				BC90A5041CD9E93500D254B0 /* PopViewControllerTests */,
+				BC90A50F1CD9E93500D254B0 /* PopViewControllerUITests */,
+				BC90A4EE1CD9E93500D254B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC90A4EE1CD9E93500D254B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC90A4ED1CD9E93500D254B0 /* PopViewController.app */,
+				BC90A5011CD9E93500D254B0 /* PopViewControllerTests.xctest */,
+				BC90A50C1CD9E93500D254B0 /* PopViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC90A4EF1CD9E93500D254B0 /* PopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC90A51E1CD9EAA300D254B0 /* XtPopViewController.swift */,
+				046750651CDA33540008DDF3 /* TestViewController.swift */,
+				BC90A4F01CD9E93500D254B0 /* AppDelegate.swift */,
+				BC90A4F21CD9E93500D254B0 /* ViewController.swift */,
+				BC90A4F41CD9E93500D254B0 /* Main.storyboard */,
+				BC90A4F71CD9E93500D254B0 /* Assets.xcassets */,
+				BC90A4F91CD9E93500D254B0 /* LaunchScreen.storyboard */,
+				BC90A4FC1CD9E93500D254B0 /* Info.plist */,
+			);
+			path = PopViewController;
+			sourceTree = "<group>";
+		};
+		BC90A5041CD9E93500D254B0 /* PopViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC90A5051CD9E93500D254B0 /* PopViewControllerTests.swift */,
+				BC90A5071CD9E93500D254B0 /* Info.plist */,
+			);
+			path = PopViewControllerTests;
+			sourceTree = "<group>";
+		};
+		BC90A50F1CD9E93500D254B0 /* PopViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC90A5101CD9E93500D254B0 /* PopViewControllerUITests.swift */,
+				BC90A5121CD9E93500D254B0 /* Info.plist */,
+			);
+			path = PopViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC90A4EC1CD9E93500D254B0 /* PopViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC90A5151CD9E93500D254B0 /* Build configuration list for PBXNativeTarget "PopViewController" */;
+			buildPhases = (
+				BC90A4E91CD9E93500D254B0 /* Sources */,
+				BC90A4EA1CD9E93500D254B0 /* Frameworks */,
+				BC90A4EB1CD9E93500D254B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopViewController;
+			productName = PopViewController;
+			productReference = BC90A4ED1CD9E93500D254B0 /* PopViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC90A5001CD9E93500D254B0 /* PopViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC90A5181CD9E93500D254B0 /* Build configuration list for PBXNativeTarget "PopViewControllerTests" */;
+			buildPhases = (
+				BC90A4FD1CD9E93500D254B0 /* Sources */,
+				BC90A4FE1CD9E93500D254B0 /* Frameworks */,
+				BC90A4FF1CD9E93500D254B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC90A5031CD9E93500D254B0 /* PBXTargetDependency */,
+			);
+			name = PopViewControllerTests;
+			productName = PopViewControllerTests;
+			productReference = BC90A5011CD9E93500D254B0 /* PopViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC90A50B1CD9E93500D254B0 /* PopViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC90A51B1CD9E93500D254B0 /* Build configuration list for PBXNativeTarget "PopViewControllerUITests" */;
+			buildPhases = (
+				BC90A5081CD9E93500D254B0 /* Sources */,
+				BC90A5091CD9E93500D254B0 /* Frameworks */,
+				BC90A50A1CD9E93500D254B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC90A50E1CD9E93500D254B0 /* PBXTargetDependency */,
+			);
+			name = PopViewControllerUITests;
+			productName = PopViewControllerUITests;
+			productReference = BC90A50C1CD9E93500D254B0 /* PopViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC90A4E51CD9E93500D254B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "夏天";
+				TargetAttributes = {
+					BC90A4EC1CD9E93500D254B0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BC90A5001CD9E93500D254B0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BC90A4EC1CD9E93500D254B0;
+					};
+					BC90A50B1CD9E93500D254B0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BC90A4EC1CD9E93500D254B0;
+					};
+				};
+			};
+			buildConfigurationList = BC90A4E81CD9E93500D254B0 /* Build configuration list for PBXProject "PopViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC90A4E41CD9E93500D254B0;
+			productRefGroup = BC90A4EE1CD9E93500D254B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC90A4EC1CD9E93500D254B0 /* PopViewController */,
+				BC90A5001CD9E93500D254B0 /* PopViewControllerTests */,
+				BC90A50B1CD9E93500D254B0 /* PopViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC90A4EB1CD9E93500D254B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC90A4FB1CD9E93500D254B0 /* LaunchScreen.storyboard in Resources */,
+				BC90A4F81CD9E93500D254B0 /* Assets.xcassets in Resources */,
+				BC90A4F61CD9E93500D254B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90A4FF1CD9E93500D254B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90A50A1CD9E93500D254B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC90A4E91CD9E93500D254B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC90A4F31CD9E93500D254B0 /* ViewController.swift in Sources */,
+				BC90A51F1CD9EAA300D254B0 /* XtPopViewController.swift in Sources */,
+				046750661CDA33540008DDF3 /* TestViewController.swift in Sources */,
+				BC90A4F11CD9E93500D254B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90A4FD1CD9E93500D254B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC90A5061CD9E93500D254B0 /* PopViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90A5081CD9E93500D254B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC90A5111CD9E93500D254B0 /* PopViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC90A5031CD9E93500D254B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC90A4EC1CD9E93500D254B0 /* PopViewController */;
+			targetProxy = BC90A5021CD9E93500D254B0 /* PBXContainerItemProxy */;
+		};
+		BC90A50E1CD9E93500D254B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC90A4EC1CD9E93500D254B0 /* PopViewController */;
+			targetProxy = BC90A50D1CD9E93500D254B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC90A4F41CD9E93500D254B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC90A4F51CD9E93500D254B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC90A4F91CD9E93500D254B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC90A4FA1CD9E93500D254B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC90A5131CD9E93500D254B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC90A5141CD9E93500D254B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC90A5161CD9E93500D254B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.PopViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC90A5171CD9E93500D254B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.PopViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC90A5191CD9E93500D254B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.PopViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopViewController.app/PopViewController";
+			};
+			name = Debug;
+		};
+		BC90A51A1CD9E93500D254B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.PopViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopViewController.app/PopViewController";
+			};
+			name = Release;
+		};
+		BC90A51C1CD9E93500D254B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.PopViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopViewController;
+			};
+			name = Debug;
+		};
+		BC90A51D1CD9E93500D254B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.PopViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC90A4E81CD9E93500D254B0 /* Build configuration list for PBXProject "PopViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC90A5131CD9E93500D254B0 /* Debug */,
+				BC90A5141CD9E93500D254B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC90A5151CD9E93500D254B0 /* Build configuration list for PBXNativeTarget "PopViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC90A5161CD9E93500D254B0 /* Debug */,
+				BC90A5171CD9E93500D254B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC90A5181CD9E93500D254B0 /* Build configuration list for PBXNativeTarget "PopViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC90A5191CD9E93500D254B0 /* Debug */,
+				BC90A51A1CD9E93500D254B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC90A51B1CD9E93500D254B0 /* Build configuration list for PBXNativeTarget "PopViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC90A51C1CD9E93500D254B0 /* Debug */,
+				BC90A51D1CD9E93500D254B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC90A4E51CD9E93500D254B0 /* Project object */;
+}
