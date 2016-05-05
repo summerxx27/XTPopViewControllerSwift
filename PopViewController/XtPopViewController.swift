@@ -83,7 +83,7 @@ class XtPopViewController: UIViewController {
                     self.rootView.layer.transform = self.secondTransform()
                     // 显示maskview, 模糊阴影
                     self.maskView = UIView.init(frame: self.view.bounds)
-                    self.maskView.backgroundColor = UIColor.whiteColor()
+                    self.maskView.backgroundColor = UIColor.blackColor()
                     self.maskView.alpha = 0.5
                     self.rootView.addSubview(self.maskView)
                     // popView上升

@@ -32,7 +32,7 @@ class TestViewController: XtPopViewController {
         btnClose.frame = CGRectMake(15, 0, 50, 40)
         btnClose.setTitle("Close", forState: UIControlState.Normal)
         btnClose.setTitleColor(UIColor.cyanColor(), forState: UIControlState.Normal)
-        btnClose.addTarget(self, action:Selector("close"), forControlEvents: UIControlEvents.TouchUpInside)
+        btnClose.addTarget(self, action:#selector(TestViewController.close), forControlEvents: UIControlEvents.TouchUpInside)
         popView1.addSubview(btnClose)
 
         // 打开按钮
@@ -41,7 +41,7 @@ class TestViewController: XtPopViewController {
         
         btnOpen.setTitle("打开", forState: UIControlState.Normal)
         btnOpen.setTitleColor(UIColor.cyanColor(), forState: UIControlState.Normal)
-        btnOpen.addTarget(self, action: Selector("open"), forControlEvents: UIControlEvents.TouchUpInside)
+        btnOpen.addTarget(self, action: #selector(TestViewController.open), forControlEvents: UIControlEvents.TouchUpInside)
         /// main.view 是主控制器的self.view
         main.view.addSubview(btnOpen)
         main.view.backgroundColor = UIColor.whiteColor()
