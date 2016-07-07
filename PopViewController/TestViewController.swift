@@ -5,7 +5,10 @@
 //  Created by Mac on 16/5/4.
 //  Copyright © 2016年 夏天. All rights reserved.
 //
-
+/************************************************************** */
+/**** 文章你可以看我的简书   http://www.jianshu.com/p/01a420681ca9  */
+/**** 我的个人站           littlesummerboy.com                    */
+/************************************************************** */
 import UIKit
 
 class TestViewController: XtPopViewController {
