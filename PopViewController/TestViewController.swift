@@ -11,7 +11,7 @@
 /************************************************************** */
 import UIKit
 
-class TestViewController: XtPopViewController {
+class TestViewController: XTPopViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

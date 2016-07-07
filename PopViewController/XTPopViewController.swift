@@ -9,7 +9,7 @@
 import UIKit
 let screen_Width = UIScreen.mainScreen().bounds.size.width
 let screen_Height = UIScreen.mainScreen().bounds.size.height
-class XtPopViewController: UIViewController {
+class XTPopViewController: UIViewController {
 
         /// 在底部弹出的View
     var popView = UIView()
@@ -20,13 +20,6 @@ class XtPopViewController: UIViewController {
         /// maskView
     var maskView = UIView()
     
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-    }
     func createPopViewControllerWithMainViewController(root: UIViewController, popView: UIView) -> Void {
         
         self.mainVc = root
@@ -114,8 +107,11 @@ class XtPopViewController: UIViewController {
     }
     
    
-
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

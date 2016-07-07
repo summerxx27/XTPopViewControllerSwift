@@ -15,7 +15,7 @@
 		BC90A4FB1CD9E93500D254B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC90A4F91CD9E93500D254B0 /* LaunchScreen.storyboard */; };
 		BC90A5061CD9E93500D254B0 /* PopViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A5051CD9E93500D254B0 /* PopViewControllerTests.swift */; };
 		BC90A5111CD9E93500D254B0 /* PopViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A5101CD9E93500D254B0 /* PopViewControllerUITests.swift */; };
-		BC90A51F1CD9EAA300D254B0 /* XtPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A51E1CD9EAA300D254B0 /* XtPopViewController.swift */; };
+		BC90A51F1CD9EAA300D254B0 /* XTPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A51E1CD9EAA300D254B0 /* XTPopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		BC90A50C1CD9E93500D254B0 /* PopViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC90A5101CD9E93500D254B0 /* PopViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewControllerUITests.swift; sourceTree = "<group>"; };
 		BC90A5121CD9E93500D254B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC90A51E1CD9EAA300D254B0 /* XtPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XtPopViewController.swift; sourceTree = "<group>"; };
+		BC90A51E1CD9EAA300D254B0 /* XTPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTPopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		BC90A4EF1CD9E93500D254B0 /* PopViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BC90A51E1CD9EAA300D254B0 /* XtPopViewController.swift */,
+				BC90A51E1CD9EAA300D254B0 /* XTPopViewController.swift */,
 				046750651CDA33540008DDF3 /* TestViewController.swift */,
 				BC90A4F01CD9E93500D254B0 /* AppDelegate.swift */,
 				BC90A4F21CD9E93500D254B0 /* ViewController.swift */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC90A4F31CD9E93500D254B0 /* ViewController.swift in Sources */,
-				BC90A51F1CD9EAA300D254B0 /* XtPopViewController.swift in Sources */,
+				BC90A51F1CD9EAA300D254B0 /* XTPopViewController.swift in Sources */,
 				046750661CDA33540008DDF3 /* TestViewController.swift in Sources */,
 				BC90A4F11CD9E93500D254B0 /* AppDelegate.swift in Sources */,
 			);
