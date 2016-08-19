@@ -7,7 +7,6 @@
 //
 /************************************************************** */
 /**** 文章你可以看我的简书   http://www.jianshu.com/p/01a420681ca9  */
-/**** 我的个人站           littlesummerboy.com                    */
 /************************************************************** */
 import UIKit
 
@@ -18,9 +17,9 @@ class TestViewController: XTPopViewController {
         
         // Do any additional setup after loading the view.
         
-        let popView1 = UIView.init(frame: CGRectMake(0, screen_Height, screen_Width, screen_Height / 2))
+        let popView1 = UIView.init(frame: CGRectMake(0, screen_Height, screen_Width, 450))
         /// popView1 是点击打开的时候下方弹出的view
-        popView1.backgroundColor = UIColor.grayColor()
+        popView1.backgroundColor = UIColor.redColor()
         /// 加个阴影
         popView1.layer.shadowColor = UIColor.blackColor().CGColor
         popView1.layer.shadowOffset = CGSizeMake(0.5, 0.5)
@@ -40,8 +39,8 @@ class TestViewController: XTPopViewController {
 
         // 打开按钮
         let btnOpen = UIButton.init(type: UIButtonType.Custom)
-        btnOpen.frame = CGRectMake(((screen_Width - 100) / 2), 300, 50, 40)
-        
+        btnOpen.frame = CGRectMake(0,0, 50, 40)
+        btnOpen.center = self.view.center;
         btnOpen.setTitle("打开", forState: UIControlState.Normal)
         btnOpen.setTitleColor(UIColor.cyanColor(), forState: UIControlState.Normal)
         btnOpen.addTarget(self, action: #selector(TestViewController.open), forControlEvents: UIControlEvents.TouchUpInside)
@@ -50,7 +49,8 @@ class TestViewController: XTPopViewController {
         main.view.backgroundColor = UIColor.whiteColor()
         main.title = "XTtest"
         self.createPopViewControllerWithMainViewController(mainNav, popView: popView1)
-//        self.view.backgroundColor = UIColor.whiteColor() // 底部
+        
+        
     }
     func open()
     {

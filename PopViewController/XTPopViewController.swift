@@ -30,7 +30,6 @@ class XTPopViewController: UIViewController {
     func createSubviews() {
         self.view.backgroundColor = UIColor.blackColor()
         mainVc!.view.frame = self.view.bounds
-        mainVc!.view.backgroundColor = UIColor.grayColor()
         rootView = mainVc!.view
         self.addChildViewController(mainVc!)
         self.view.addSubview(rootView)
@@ -38,12 +37,11 @@ class XTPopViewController: UIViewController {
     }
     
     func closeAction(){
+        
         var frame = popView.frame
         frame.origin.y += popView.frame.size.height
         
         UIView.animateWithDuration(0.3, animations: {
-            //
-            self.maskView.alpha = 0
             self.popView.frame = frame
             // 改善滑动效果
             self.rootView.layer.transform = self.firstTransform()
@@ -74,11 +72,6 @@ class XTPopViewController: UIViewController {
                 UIView .animateWithDuration(0.3, delay: 0, options: UIViewAnimationOptions.CurveEaseInOut, animations: { 
                     //
                     self.rootView.layer.transform = self.secondTransform()
-                    // 显示maskview, 模糊阴影
-                    self.maskView = UIView.init(frame: self.view.bounds)
-                    self.maskView.backgroundColor = UIColor.blackColor()
-                    self.maskView.alpha = 0.5
-                    self.rootView.addSubview(self.maskView)
                     // popView上升
                     self.popView.frame = frame
                     }, completion: { (Bool) in
