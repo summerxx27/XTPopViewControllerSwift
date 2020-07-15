@@ -2,8 +2,8 @@
 //  PopViewControllerTests.swift
 //  PopViewControllerTests
 //
-//  Created by zjwang on 5/4/16.
-//  Copyright © 2016 夏天. All rights reserved.
+//  Created by summerxx on 5/4/16.
+//  Copyright © 2016 summerxx. All rights reserved.
 //
 
 import XCTest

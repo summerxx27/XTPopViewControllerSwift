@@ -2,8 +2,8 @@
 //  TestViewController.swift
 //  PopViewController
 //
-//  Created by Mac on 16/5/4.
-//  Copyright © 2016年 夏天. All rights reserved.
+//  Created by summerxx on 16/5/4.
+//  Copyright © 2016年 summerxx. All rights reserved.
 //
 /************************************************************** */
 /**** 文章你可以看我的简书   http://www.jianshu.com/p/01a420681ca9  */
@@ -15,14 +15,12 @@ class TestViewController: XTPopViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
-        
-        let popView1 = UIView.init(frame: CGRectMake(0, screen_Height, screen_Width, 450))
+        let popView1 = UIView.init(frame: CGRect.init(x: 0, y: screen_Height, width: screen_Width, height: 450))
         /// popView1 是点击打开的时候下方弹出的view
-        popView1.backgroundColor = UIColor.redColor()
+        popView1.backgroundColor = UIColor.red
         /// 加个阴影
-        popView1.layer.shadowColor = UIColor.blackColor().CGColor
-        popView1.layer.shadowOffset = CGSizeMake(0.5, 0.5)
+        popView1.layer.shadowColor = UIColor.black.cgColor
+        popView1.layer.shadowOffset = CGSize.init(width: 0.5, height: 0.5)
         popView1.layer.shadowOpacity = 0.8
         popView1.layer.shadowRadius = 5
 
@@ -30,51 +28,43 @@ class TestViewController: XTPopViewController {
         let mainNav = UINavigationController.init(rootViewController: main)
         
         /// 关闭按钮
-        let btnClose = UIButton.init(type: UIButtonType.Custom)
-        btnClose.frame = CGRectMake(15, 0, 50, 40)
-        btnClose.setTitle("Close", forState: UIControlState.Normal)
-        btnClose.setTitleColor(UIColor.cyanColor(), forState: UIControlState.Normal)
-        btnClose.addTarget(self, action:#selector(TestViewController.close), forControlEvents: UIControlEvents.TouchUpInside)
+        let btnClose = UIButton.init(type: UIButton.ButtonType.custom)
+        btnClose.frame = CGRect.init(x: 15, y: 0, width: 50, height: 40)
+        btnClose.setTitle("Close", for: UIControl.State.normal)
+        btnClose.setTitleColor(UIColor.cyan, for: UIControl.State.normal)
+        btnClose.addTarget(self, action:#selector(close), for: UIControl.Event.touchUpInside)
         popView1.addSubview(btnClose)
 
         // 打开按钮
-        let btnOpen = UIButton.init(type: UIButtonType.Custom)
-        btnOpen.frame = CGRectMake(0,0, 50, 40)
+        let btnOpen = UIButton.init(type: UIButton.ButtonType.custom)
+        btnOpen.frame = CGRect.init(x: 0, y: 0, width: 50, height: 40)
         btnOpen.center = self.view.center;
-        btnOpen.setTitle("打开", forState: UIControlState.Normal)
-        btnOpen.setTitleColor(UIColor.cyanColor(), forState: UIControlState.Normal)
-        btnOpen.addTarget(self, action: #selector(TestViewController.open), forControlEvents: UIControlEvents.TouchUpInside)
+        btnOpen.setTitle("open", for: UIControl.State.normal)
+        btnOpen.setTitleColor(UIColor.cyan, for: UIControl.State.normal)
+        btnOpen.addTarget(self, action: #selector(open), for: UIControl.Event.touchUpInside)
         /// main.view 是主控制器的self.view
         main.view.addSubview(btnOpen)
-        main.view.backgroundColor = UIColor.whiteColor()
-        main.title = "XTtest"
-        self.createPopViewControllerWithMainViewController(mainNav, popView: popView1)
+        main.view.backgroundColor = UIColor.white
+        main.title = "summerxx"
+        self.createPopViewControllerWithMainViewController(root: mainNav, popView: popView1)
         
         
     }
-    func open()
+    
+    @objc func open()
     {
         print("+++++++++")
         self.openAction()
     }
-    func close()
+    
+    @objc func close()
     {
         self.closeAction()
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
