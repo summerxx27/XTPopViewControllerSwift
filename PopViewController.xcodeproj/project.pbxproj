@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		046750661CDA33540008DDF3 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046750651CDA33540008DDF3 /* TestViewController.swift */; };
+		B9A1C4472937C62000830D91 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1C4462937C62000830D91 /* Then.swift */; };
 		BC90A4F11CD9E93500D254B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A4F01CD9E93500D254B0 /* AppDelegate.swift */; };
 		BC90A4F31CD9E93500D254B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A4F21CD9E93500D254B0 /* ViewController.swift */; };
 		BC90A4F61CD9E93500D254B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC90A4F41CD9E93500D254B0 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		046750651CDA33540008DDF3 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B9A1C4462937C62000830D91 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		BC90A4ED1CD9E93500D254B0 /* PopViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC90A4F01CD9E93500D254B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC90A4F21CD9E93500D254B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		BC90A4EF1CD9E93500D254B0 /* PopViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B9A1C4462937C62000830D91 /* Then.swift */,
 				BC90A51E1CD9EAA300D254B0 /* XTPopViewController.swift */,
 				046750651CDA33540008DDF3 /* TestViewController.swift */,
 				BC90A4F01CD9E93500D254B0 /* AppDelegate.swift */,
@@ -269,6 +272,7 @@
 				BC90A4F31CD9E93500D254B0 /* ViewController.swift in Sources */,
 				BC90A51F1CD9EAA300D254B0 /* XTPopViewController.swift in Sources */,
 				046750661CDA33540008DDF3 /* TestViewController.swift in Sources */,
+				B9A1C4472937C62000830D91 /* Then.swift in Sources */,
 				BC90A4F11CD9E93500D254B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
